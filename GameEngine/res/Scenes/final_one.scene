@@ -1,0 +1,34 @@
+Scene: Untitled
+Entities:
+  - Entity: 4
+    Tag: Cube 2
+    TransformComponent:
+      Translation: [2.18924475, 2.30184031, 3.58988047, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 1
+  - Entity: 2
+    Tag: New Plane
+    TransformComponent:
+      Translation: [0, 0, 0, 1]
+      Rotation: [0, 0, 0, 1]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 2
+  - Entity: 3
+    Tag: Cube 1
+    TransformComponent:
+      Translation: [1.70958996, 1.32657301, 1.78577769, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 1
+  - Entity: 5
+    Tag: Cube 3
+    TransformComponent:
+      Translation: [-0.0619077086, 3.8141005, 3.47657609, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 1

@@ -1,0 +1,86 @@
+Scene: Untitled
+Entities:
+  - Entity: 2
+    Tag: Default Cube
+    TransformComponent:
+      Translation: [0, 3.78580332, 0, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 6
+    Tag: New Cube
+    TransformComponent:
+      Translation: [4.62416363, 3.4540205, -1.7296257, 1]
+      Rotation: [0.333390892, 0.737712264, -0.16670005, -0.562887371]
+      Scale: [1.04281986, 1.34687924, 0.879998565, 0]
+    RendererComponent:
+      Type: 1
+  - Entity: 3
+    Tag: New Capsule
+    TransformComponent:
+      Translation: [3.42639709, 2.52963924, 0, 1]
+      Rotation: [-0.464779526, 0, -0, 0.885426462]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 4
+  - Entity: 4
+    Tag: Plane Rot Ywe
+    TransformComponent:
+      Translation: [0, 0, 0, 1]
+      Rotation: [-0, -0.373112798, -0, 0.927785993]
+      Scale: [0.999999762, 1, 0.999999762, 0]
+    RendererComponent:
+      Type: 2
+  - Entity: 8
+    Tag: Plane Rot X
+    TransformComponent:
+      Translation: [0, 0, 0, 1]
+      Rotation: [0.726404905, 0.00286071212, 0.002706534, 0.687255681]
+      Scale: [0.999999881, 1, 0.999997795, 0]
+    RendererComponent:
+      Type: 2
+  - Entity: 11
+    Tag: Empty Entity
+  - Entity: 9
+    Tag: New Cylinder
+    TransformComponent:
+      Translation: [-3.39990616, 2.95535278, 2.66702461, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 3
+  - Entity: 5
+    Tag: New Sphere
+    TransformComponent:
+      Translation: [-1.00996017, 3.77198744, 2.74361134, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [2.09000015, 2.09000015, 2.09000015, 0]
+    RendererComponent:
+      Type: 5
+  - Entity: 7
+    Tag: Plane Rot Z
+    TransformComponent:
+      Translation: [0, -3.01463771, 0, 1]
+      Rotation: [0, 0, 0.707107306, -0.707106292]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 2
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [10, 0.100000001, 10]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 10
+    Tag: No mesh
+    TransformComponent:
+      Translation: [3.46789932, 4.72160053, 0.0561666489, 1]
+      Rotation: [-0.215103969, 0, -0, 0.97659117]
+      Scale: [3.00963187, 2.71924901, 1.36000013, 0]

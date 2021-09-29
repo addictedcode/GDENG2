@@ -1,0 +1,83 @@
+Scene: Untitled
+Entities:
+  - Entity: 343434
+    Tag: Plane
+    TransformComponent:
+      Translation: [0, 0, -0, 1]
+      Rotation: [0, 0, 0, 1]
+      Scale: [1, 1, 1, 0.100000001]
+    RendererComponent:
+      Type: 2
+    BoxColliderComponent:
+      Position: [0, 0, 0]
+      Size: [1, 0, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true
+  - Entity: 343434
+    Tag: Cube
+    TransformComponent:
+      Translation: [5, 0.399999976, 0.099999994, 1]
+      Rotation: [0, 0, 0, 1]
+      Scale: [0.25, 7.75, -10.25, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0, 0, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true
+  - Entity: 343434
+    Tag: Cube2
+    TransformComponent:
+      Translation: [0, 0.399999976, 5.19999981, 1]
+      Rotation: [-1.88313706e-07, -0.707107484, -1.88314075e-07, 0.707106113]
+      Scale: [0.25, 7.75, -10.25, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0, 0, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true
+  - Entity: 343434
+    Tag: Cube3
+    TransformComponent:
+      Translation: [-4.9000001, -2.0999999, 0.099999994, 1]
+      Rotation: [0, 0, 0, 1]
+      Scale: [0.25, 7.75, -10.25, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0, 0, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true
+  - Entity: 343434
+    Tag: Cube4
+    TransformComponent:
+      Translation: [0, -2.0999999, -5, 1]
+      Rotation: [-1.91290553e-07, -0.707107484, -1.91290937e-07, 0.707106113]
+      Scale: [0.25, 7.75, -10.25, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0, 0, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true
+  - Entity: 343434
+    Tag: Capsule
+    TransformComponent:
+      Translation: [-0.699999988, 1.5, -1.10000002, 1]
+      Rotation: [0, 0, 0, 1]
+      Scale: [1, 1, -1, 1]
+    RendererComponent:
+      Type: 4
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: true

@@ -1,0 +1,62 @@
+Scene: Untitled
+Entities:
+- Entity: 69420
+  Tag: Plane
+  TransformComponent:
+    Translation: [0, 0, 0, 1]
+    Rotation: [0, 0, 0, 1]
+    Scale: [1, 1, 1, 0]
+  RendererComponent:
+    Type: 2
+- Entity: 69420
+  Tag: Cube
+  TransformComponent:
+    Translation: [4.92999983, 1.59000003, 0, 1]
+    Rotation: [0, 0, 0, 1]
+    Scale: [0.417670012, 5.84779978, 10.4969997, 0]
+  RendererComponent:
+    Type: 1
+  BoxColliderComponent:
+    Position: [0, 0, 0]
+    Size: [1, 1, 1]
+- Entity: 69420
+  Tag: Cube (1)
+  TransformComponent:
+    Translation: [-0.0900000036, 1.59000003, 5.17000008, 1]
+    Rotation: [0, -0.710147917, 0, 0.704052567]
+    Scale: [0.417670012, 5.84779978, 10.4969997, 0]
+  RendererComponent:
+    Type: 1
+  BoxColliderComponent:
+    Position: [0, 0, 0]
+    Size: [1, 1, 1]
+- Entity: 69420
+  Tag: Cube (2)
+  TransformComponent:
+    Translation: [-5.25, 0.0199999996, -0.109999999, 1]
+    Rotation: [0, 0, 0, 1]
+    Scale: [0.417670012, 5.84779978, 10.4969997, 0]
+  RendererComponent:
+    Type: 1
+  BoxColliderComponent:
+    Position: [0, 0, 0]
+    Size: [1, 1, 1]
+- Entity: 69420
+  Tag: Cube (3)
+  TransformComponent:
+    Translation: [-0.0900000036, -0.119999997, -5.17000008, 1]
+    Rotation: [0, -0.710147917, 0, 0.704052567]
+    Scale: [0.417670012, 5.84779978, 10.4969997, 0]
+  RendererComponent:
+    Type: 1
+  BoxColliderComponent:
+    Position: [0, 0, 0]
+    Size: [1, 1, 1]
+- Entity: 69420
+  Tag: Capsule
+  TransformComponent:
+    Translation: [-0.769999981, 1.42999995, -0.280000001, 1]
+    Rotation: [0, 0, 0, 1]
+    Scale: [1, 1, 1, 0]
+  RendererComponent:
+    Type: 4

@@ -1,0 +1,772 @@
+Scene: Untitled
+Entities:
+  - Entity: 105
+    Tag: Cube 30
+    TransformComponent:
+      Translation: [0.219206363, 0.246952623, 0.0158224702, 0]
+      Rotation: [0.160208419, 0.171334386, 0.240039229, 0.941997349]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 57
+    Tag: Cube 5
+    TransformComponent:
+      Translation: [-0.171468049, 0.0439161062, -0.153843582, 0]
+      Rotation: [0.132378131, 0.0854215026, 0.137395516, 0.977906764]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 58
+    Tag: Wall 4
+    TransformComponent:
+      Translation: [5.96046448e-08, -3.04960418, -7.40601349, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [9.85466862, 2.68865466, 0.18395105, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 63
+    Tag: Cube 46
+    TransformComponent:
+      Translation: [-0.10577032, 0.246075779, -0.212488204, 0]
+      Rotation: [0.112090871, -0.0230261739, 0.314021766, 0.942494512]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 111
+    Tag: Cube 43
+    TransformComponent:
+      Translation: [0.0499671698, 0.0497182906, -0.0408550054, 0]
+      Rotation: [0.309180826, 0.284578562, -0.0663834065, 0.904994786]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 59
+    Tag: Cube 47
+    TransformComponent:
+      Translation: [-0.0296796709, 0.162036419, -0.0807063282, 0]
+      Rotation: [0.189550102, 0.229470253, 0.249806643, 0.921417892]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 62
+    Tag: Wall 1
+    TransformComponent:
+      Translation: [5.0125618, -1.70954001, 2.98023224e-08, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [0.276635677, 4.88269711, 11.0435638, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 64
+    Tag: Cube 0
+    TransformComponent:
+      Translation: [0.068390727, -0.0721399635, 0.19534862, 0]
+      Rotation: [0.154379576, 0.292382985, 0.0174205694, 0.943597198]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 67
+    Tag: Cube 1
+    TransformComponent:
+      Translation: [0.0207783282, 0.223849207, -0.137038112, 0]
+      Rotation: [0.269283473, 0.00900983065, 0.269198954, 0.924628139]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 60
+    Tag: Cube 36
+    TransformComponent:
+      Translation: [-0.0115542859, -0.000832870603, -0.0602481812, 0]
+      Rotation: [0.116069548, 0.256330132, 0.250574768, 0.926301837]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 61
+    Tag: Plane
+    TransformComponent:
+      Translation: [0, -3.32455492, 0, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 2
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [10, 1, 10]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 65
+    Tag: Cube 48
+    TransformComponent:
+      Translation: [-0.0579981655, 0.201506466, -0.0893157423, 0]
+      Rotation: [0.36067906, 0.000866979361, 0.298971772, 0.883473754]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 101
+    Tag: Cube 27
+    TransformComponent:
+      Translation: [0.103631318, 0.145230591, -0.0293137729, 0]
+      Rotation: [0.362178236, 0.265818119, 0.128829747, 0.884064794]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 66
+    Tag: Wall 2
+    TransformComponent:
+      Translation: [0.0603427887, -1.38863051, 5.00336218, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [10.1361256, 4.36248589, 0.177167624, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 84
+    Tag: Cube 13
+    TransformComponent:
+      Translation: [0.0281366408, -0.198284656, 0.13216126, 0]
+      Rotation: [0.0809401274, 0.109941229, 0.115190901, 0.983917058]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 68
+    Tag: Cube 2
+    TransformComponent:
+      Translation: [0.0427130461, 0.219380617, -0.0929230601, 0]
+      Rotation: [0.291801214, 0.0314353332, 0.199341834, 0.934947431]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 69
+    Tag: Wall 3
+    TransformComponent:
+      Translation: [-7.89545441, -2.45192432, 0, 1]
+      Rotation: [-0, 0, -0, 1]
+      Scale: [0.32213062, 2.75351524, 10.5840197, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 0
+      IsGravityEnabled: false
+  - Entity: 74
+    Tag: Cube 6
+    TransformComponent:
+      Translation: [-0.0969678313, 0.151348889, 0.0908831954, 0]
+      Rotation: [0.282247812, 0.298891157, -0.0722883865, 0.908721507]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 70
+    Tag: Cube 9
+    TransformComponent:
+      Translation: [0.0116501749, -0.188530535, 0.00985014439, 0]
+      Rotation: [0.105695151, 0.188080907, 0.0355018154, 0.97580415]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 82
+    Tag: Cube 12
+    TransformComponent:
+      Translation: [0.0178605914, -0.089419499, 0.0314427018, 0]
+      Rotation: [0.15465489, 0.0291846115, 0.176230654, 0.971685648]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 71
+    Tag: Cube 3
+    TransformComponent:
+      Translation: [-0.119522437, 0.0709071457, -0.210110486, 1]
+      Rotation: [0.292647064, -0.0363873653, 0.249282509, 0.922438025]
+      Scale: [1, 1, 1, 0]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 75
+    Tag: Cube 7
+    TransformComponent:
+      Translation: [-0.0993110687, -0.191266701, 0.155042022, 0]
+      Rotation: [0.0833292007, 0.105102696, 0.355100125, 0.925155938]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 72
+    Tag: Cube 29
+    TransformComponent:
+      Translation: [-0.19202663, 0.0207131505, -0.213501856, 0]
+      Rotation: [0.214170516, 0.145314351, 0.0412045941, 0.965047657]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 80
+    Tag: Cube 37
+    TransformComponent:
+      Translation: [0.234029382, -0.0497904569, 0.0987667143, 0]
+      Rotation: [0.212328941, 0.282325357, 0.262715369, 0.897880614]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 73
+    Tag: Cube 4
+    TransformComponent:
+      Translation: [0.0878976285, 0.151814044, -0.243921444, 0]
+      Rotation: [0.205827847, 0.087447606, 0.340949029, 0.913094521]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 86
+    Tag: Cube 18
+    TransformComponent:
+      Translation: [-0.0279105455, -0.185931712, 0.101379275, 0]
+      Rotation: [0.0706892014, 0.00776260579, 0.0203717053, 0.997260153]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 76
+    Tag: Cube 16
+    TransformComponent:
+      Translation: [-0.18734099, 0.190747887, 0.0724021792, 0]
+      Rotation: [0.164714888, 0.0903906375, 0.185470492, 0.964520216]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 91
+    Tag: Cube 42
+    TransformComponent:
+      Translation: [0.189503938, -0.182094574, 0.124985546, 0]
+      Rotation: [0.335967958, 0.225706443, 0.257578254, 0.877402782]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 77
+    Tag: Cube 8
+    TransformComponent:
+      Translation: [0.00366154313, 0.230211526, -0.0996697843, 0]
+      Rotation: [0.200465724, 0.132271469, 0.0905277506, 0.966500163]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 89
+    Tag: Cube 21
+    TransformComponent:
+      Translation: [0.00641530752, 0.245090455, -0.0998055041, 0]
+      Rotation: [0.296141356, 0.321732879, 0.0272779167, 0.898912787]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 78
+    Tag: Cube 10
+    TransformComponent:
+      Translation: [0.0196796358, -0.0325576961, -0.211472303, 0]
+      Rotation: [0.137999266, 0.281994641, 0.187065527, 0.930828571]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 79
+    Tag: Cube 45
+    TransformComponent:
+      Translation: [0.214562595, -0.0903569907, 0.119098306, 0]
+      Rotation: [0.339538038, 0.202219039, 0.0479734242, 0.917343974]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 83
+    Tag: Cube 23
+    TransformComponent:
+      Translation: [-0.242456257, -0.0917095244, 0.0446521044, 0]
+      Rotation: [0.316248775, 0.0778237805, 0.255671173, 0.910254061]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 81
+    Tag: Cube 11
+    TransformComponent:
+      Translation: [0.0666049421, 0.0606751144, 0.165248066, 0]
+      Rotation: [0.224549502, 0.0852307305, 0.199262366, 0.950056732]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 97
+    Tag: Cube 34
+    TransformComponent:
+      Translation: [0.0524594784, -0.221365407, -0.0929926783, 0]
+      Rotation: [0.0680620298, 0.0141904298, 0.0887686983, 0.993622839]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 85
+    Tag: Cube 39
+    TransformComponent:
+      Translation: [0.139726311, 0.0512642562, 0.21897465, 0]
+      Rotation: [0.315399051, 0.295078963, 0.157630101, 0.888034165]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 98
+    Tag: Cube 22
+    TransformComponent:
+      Translation: [0.099406749, 0.20853439, -0.0558140725, 0]
+      Rotation: [0.243525654, 0.00413295627, 0.344661891, 0.906579494]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 87
+    Tag: Cube 14
+    TransformComponent:
+      Translation: [-0.207252294, -0.185176134, 0.163196504, 0]
+      Rotation: [0.0912396014, 0.239995539, 0.335953504, 0.906207919]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 88
+    Tag: Cube 41
+    TransformComponent:
+      Translation: [-0.16121918, -0.0888863653, 0.0293337703, 0]
+      Rotation: [0.041137632, 0.283084482, 0.00194191106, 0.958210409]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 99
+    Tag: Cube 24
+    TransformComponent:
+      Translation: [0.116803169, -0.24609293, 0.154441833, 0]
+      Rotation: [0.304683954, 0.145358801, 0.0653968453, 0.939021707]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 90
+    Tag: Cube 15
+    TransformComponent:
+      Translation: [-0.0457596332, 0.247171462, -0.195286453, 0]
+      Rotation: [0.0429554209, 0.114512347, 0.188292563, 0.974467874]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 94
+    Tag: Cube 31
+    TransformComponent:
+      Translation: [0.027921468, -0.184914812, 0.0420429409, 0]
+      Rotation: [0.294124126, 0.128469765, 0.200958997, 0.92552799]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 92
+    Tag: Cube 17
+    TransformComponent:
+      Translation: [-0.14704892, 0.018446058, 0.168005109, 0]
+      Rotation: [0.336702704, -0.0340998471, 0.262176335, 0.9037323]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 104
+    Tag: Cube 28
+    TransformComponent:
+      Translation: [-0.00619202852, -0.0470714718, -0.22255449, 0]
+      Rotation: [0.0812638253, 0.174101517, 0.247800529, 0.949568272]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 93
+    Tag: Cube 19
+    TransformComponent:
+      Translation: [0.0374671221, 0.0674947798, -0.181922585, 0]
+      Rotation: [0.209181085, 0.105381459, 0.306098461, 0.922736108]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 95
+    Tag: Cube 20
+    TransformComponent:
+      Translation: [0.160182208, -0.125627145, 0.123522758, 0]
+      Rotation: [0.0704510808, 0.101663277, 0.228182882, 0.965729713]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 100
+    Tag: Cube 25
+    TransformComponent:
+      Translation: [-0.169367433, -0.00877222419, 0.0261790156, 0]
+      Rotation: [0.209171012, 0.0348983631, 0.140871063, 0.967049599]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 96
+    Tag: Cube 49
+    TransformComponent:
+      Translation: [-0.160204649, 0.217794001, -0.0781884789, 0]
+      Rotation: [0.179534823, 0.0939933807, 0.0971112475, 0.974423885]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 103
+    Tag: Cube 40
+    TransformComponent:
+      Translation: [-0.234201193, 0.044567436, -0.15625146, 0]
+      Rotation: [0.395818859, 0.147629037, 0.166620001, 0.890938222]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 102
+    Tag: Cube 26
+    TransformComponent:
+      Translation: [-0.223970324, -0.211971283, 0.182794899, 0]
+      Rotation: [0.0546171851, 0.174660742, 0.0809857622, 0.979771376]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 106
+    Tag: Cube 44
+    TransformComponent:
+      Translation: [0.111937582, 0.0956124365, -0.235861585, 0]
+      Rotation: [0.263691813, 0.0591487512, 0.0747417957, 0.959886312]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 107
+    Tag: Cube 32
+    TransformComponent:
+      Translation: [0.110400379, 0.127023757, -0.158193797, 0]
+      Rotation: [0.34222281, 0.303664893, 0.0253761802, 0.888834834]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 110
+    Tag: Cube 38
+    TransformComponent:
+      Translation: [-0.00531442463, 0.036909014, 0.111600161, 0]
+      Rotation: [0.281145215, 0.208927244, 0.0573787615, 0.934887409]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 108
+    Tag: Cube 33
+    TransformComponent:
+      Translation: [-0.105017573, -0.132280231, 0.0887450576, 0]
+      Rotation: [0.13254936, 0.246923804, 0.18541801, 0.941848993]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
+  - Entity: 109
+    Tag: Cube 35
+    TransformComponent:
+      Translation: [-0.0908199251, 0.217561841, -0.050326705, 0]
+      Rotation: [0.142026693, 0.204890132, 0.312085629, 0.91676116]
+      Scale: [1, 1, 1, 1]
+    RendererComponent:
+      Type: 1
+    BoxColliderComponent:
+      Position: [0.00999999978, 0.00999999978, 0]
+      Size: [1, 1, 1]
+    RigidbodyComponent:
+      Type: 2
+      IsGravityEnabled: true
