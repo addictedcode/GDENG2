@@ -1,6 +1,6 @@
 Ngo, Richmond W.
 
-GDENG2 Scene Editor:
+Scene Editor:
 
 Entry Class File:
 src/main.cpp
